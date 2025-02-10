@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    font-family: 'Baloo 2', 'Patrick Hand', cursive;
+ 
+    font-size: 3rem;
+    margin: 5%;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  button {
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-weight: 2200;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease;
+    outline: none;
+  }
+  
+  #button-27 {
+    background-color: #4CAF50;
+    box-shadow: 0px 5px 10px rgba(0, 255, 0, 0.2);
+  }
+  
+  #button-27:hover {
+    background-color: #45a049;
+    box-shadow: 0px 8px 16px rgba(0, 255, 0, 0.3);
+  }
+  
+  #restart-button {
+    background-color: #FF5733;
+    box-shadow: 0px 5px 10px rgba(255, 87, 51, 0.2);
+  }
+  
+  #restart-button:hover {
+    background-color: #ff4500;
+    box-shadow: 0px 8px 16px rgba(255, 87, 51, 0.3);
+  }
