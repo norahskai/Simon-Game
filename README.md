@@ -5,7 +5,6 @@
 # Description
 
 
-
 The Simon Game is a memory-based game where players are required to follow a pattern of lights and sounds that repeat as the game progresses. The game starts with a sequence, and with each round, the sequence becomes longer. Players need to replicate the sequence by clicking the colored buttons. The game ends if the player clicks the wrong button, and they are prompted to restart.
 
 
